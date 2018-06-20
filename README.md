@@ -26,4 +26,8 @@ Folder structure:
   }
 }
 ```
+
+```
+  Execute nom run tests ineer testCypressApi folder.
+```
 # testCypressApi
