@@ -28,6 +28,6 @@ Folder structure:
 ```
 
 ```
-  Execute nom run tests ineer testCypressApi folder.
+  Execute npm run tests ineer testCypressApi folder.
 ```
 # testCypressApi
