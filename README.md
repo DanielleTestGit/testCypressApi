@@ -4,7 +4,7 @@ Folder structure:
 
 ```
 ../projects/
-    automaçãoTeste/
+    testCypressApi/
       package.json
       node_modules
       cypress.json
