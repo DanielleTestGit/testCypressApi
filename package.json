@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests",
+    "tests": "cypress run  --reporter-options mochaFile=result.xml,toConsole=true"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "commit-message-install": "^1.4.0"
+  }
+}
