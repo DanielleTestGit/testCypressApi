@@ -18,16 +18,8 @@ Folder structure:
 
     
 ```
-```json
-{
-  "scripts": {
-    "test": "npm run tests",
-    "tests": "cypress run --reporter-options mochaFile=result.xml,toConsole=true"
-  }
-}
-```
 
 ```
-  Execute npm run tests ineer testCypressApi folder.
+  Execute npm run tests inner testCypressApi folder.
 ```
-# testCypressApi
+
