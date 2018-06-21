@@ -5,10 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run tests",
-    "tests": "cypress run  --reporter-options mochaFile=result.xml,toConsole=true"
+    "tests": "cypress run",
+    "open": "cypress open",
+    "precommit": "lint-staged"
   },
-  "license": "MIT",
+  "lint-staged": {
+    "*.{js,md}": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "cypress": "^1.4.2",
+    "jsonpath": "^1.0.0",
+    "mocha": "^5.1.0",
+    "mochawesome": "^3.0.2",
+    "mochawesome-report-generator": "^3.1.2",
+    "uuid": "^3.1.0"
+  },
   "devDependencies": {
-    "commit-message-install": "^1.4.0"
+    "husky": "0.14.3",
+    "lint-staged": "7.0.4",
+    "prettier-eslint-cli": "4.7.1"
   }
 }

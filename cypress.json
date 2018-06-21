@@ -1,6 +1,13 @@
 {
     "chromeWebSecurity": false,
     "defaultCommandTimeout": 50000,
-    "execTimeout": 200000
+    "execTimeout": 200000,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "artifacts/report",
+      "reportFilename": "testReport",
+      "reportTitle": "Test Report",
+      "reportPageTitle": "Test Report"
+    }
 
 }
